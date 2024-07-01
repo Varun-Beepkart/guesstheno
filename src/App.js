@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import StartScreen from './StartScreen';
+import GameScreen from './GameScreen';
+import Rules from './Rules';
 import './App.css';
+import "@fontsource/space-mono";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+    const [isGameStarted, setIsGameStarted] = useState(false);
+
+    const startGame = () => {
+        setIsGameStarted(true);
+    };
+
+    return (
+      <div className="app">
+        <div className="parent-container">
+          <div className="left-panel">
+            <div className="heading-container">
+              <h1 className="heading"> Guess the Number</h1>
+            </div>
+            <Rules />
+            <div className="boomerang-image"></div>
+          </div>
+          <div className="right-panel">
+              {isGameStarted ? (
+                  <GameScreen />
+              ) : (
+                  <StartScreen startGame={startGame} />
+              )}
+          </div>
+        </div>
     </div>
-  );
-}
+    );
+};
 
 export default App;

@@ -1,0 +1,36 @@
+.result-screen {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDE74C;
+    align-items: center;
+    justify-content: center;    
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .result-emoji {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  .retry-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Space Mono', monospace;
+  }
+  
+  .retry-button:hover {
+    background-color: #FDE74C;
+  }
+  
