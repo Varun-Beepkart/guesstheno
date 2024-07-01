@@ -5,7 +5,7 @@ import Result from './Result';
 const GameScreen = () => {
     const [term, setTerm] = useState('');
     const [result, setResult] = useState('');
-    const [secretNum] = useState(generateRandomNumber());
+    const [secretNum,setSecretNum] = useState(generateRandomNumber());
     const [stepCount, setStepCount] = useState(5);
     const [gameFinished, setGameFinished] = useState(false);
     const [gameWon, setGameWon] = useState(false);
@@ -31,7 +31,7 @@ const GameScreen = () => {
             setResult("")
 
             if(stepCount > 1){
-                if(parseInt(term) == secretNum){
+                if(parseInt(term) === secretNum){
                     setGameFinished(true)
                     setGameWon(true)
                 }
@@ -44,6 +44,7 @@ const GameScreen = () => {
     }
 
     const onRetry = () => {
+        setSecretNum(generateRandomNumber())
         setGameFinished(false);
         setGameWon(false);
         setStepCount(5);
