@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/guesstheno/static/css/main.d97da92f.css",
+    "main.js": "/guesstheno/static/js/main.67dd3345.js",
+    "static/js/453.a07c0528.chunk.js": "/guesstheno/static/js/453.a07c0528.chunk.js",
+    "static/media/space-mono-latin-400-normal.woff2": "/guesstheno/static/media/space-mono-latin-400-normal.cf0de771ae438d1d570f.woff2",
+    "static/media/space-mono-latin-ext-400-normal.woff2": "/guesstheno/static/media/space-mono-latin-ext-400-normal.2372b0a44653b43e0b37.woff2",
+    "static/media/space-mono-latin-400-normal.woff": "/guesstheno/static/media/space-mono-latin-400-normal.2b12ded554ed81adafa1.woff",
+    "static/media/space-mono-latin-ext-400-normal.woff": "/guesstheno/static/media/space-mono-latin-ext-400-normal.238ec4abfb127b6cbd2e.woff",
+    "static/media/space-mono-vietnamese-400-normal.woff2": "/guesstheno/static/media/space-mono-vietnamese-400-normal.aa90b0c628c744cb42ab.woff2",
+    "static/media/space-mono-vietnamese-400-normal.woff": "/guesstheno/static/media/space-mono-vietnamese-400-normal.e9918368441703dd46dc.woff",
+    "index.html": "/guesstheno/index.html",
+    "main.d97da92f.css.map": "/guesstheno/static/css/main.d97da92f.css.map",
+    "main.67dd3345.js.map": "/guesstheno/static/js/main.67dd3345.js.map",
+    "453.a07c0528.chunk.js.map": "/guesstheno/static/js/453.a07c0528.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d97da92f.css",
+    "static/js/main.67dd3345.js"
+  ]
+}
